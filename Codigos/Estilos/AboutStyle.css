@@ -1,0 +1,319 @@
+body a {
+    color: white;
+}
+
+.title {
+    width: 100%;
+    height: 500px;
+}
+
+.title div {
+    width: 444.969px;
+    height: 234.094px;
+    padding-top: 15px;
+    border-top: 3px black solid;
+    position: relative;
+    margin-left: 250px;
+    margin-top: -400px;
+    margin-bottom: 55px;
+}
+
+.title h1 {
+    font-size: 35px;
+    font-weight: bold;
+    width: 444.969px;
+    height: 84px;
+    margin-bottom: 17.5px;
+    margin-top: 0px;
+    color: black;
+}
+
+.div2 {
+    width: 100%;
+    height: 499.25px;
+    padding: 153.188px 248.938px;
+    background-color: rgb(205, 205, 205);
+    color: black;
+}
+
+.div2 p {
+    font-size: 15px;
+}
+
+.div2-1 {
+    width: 708.56px;
+    height: 192.88px;
+    padding-right: 49.594px;
+}
+
+.div2-1-1 {
+    width: 658.25px;
+    height: 39px;
+    margin-bottom: 19.4px;
+    font-weight: bold;
+}
+
+.div2-1-2 {
+    margin-bottom: 19.4px;
+}
+
+.div2-2 {
+    width: 708.56px;
+    height: 110px;
+    padding-left: 49.594px;
+    margin-left: 708.56px;
+    margin-top: -192.88px;
+}
+
+.div3 {
+    width: 100%;
+    height: 900.81px;
+    background-color: white;
+    padding-left: 248.938px;
+    padding-top: 153.188px;
+    padding-bottom: 153.188px;
+    color: black;
+}
+
+.div3-1 {
+    width: 1696.06px;
+    height: 594.44px;
+    padding-left: 30px;
+    margin-bottom: 30px;
+    margin-left: -30px;
+}
+
+.div3-1-1 {
+    width: 555.36px;
+    height: 399.38px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-right: 35px;
+}
+
+.div3-1-1 h2 {
+    width: 520.36px;
+    height: 31px;
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 17.5px;
+    margin-top: 0px;
+}
+
+.div3-1-1 p {
+    font-size: 15px;
+    margin-bottom: 19.4px;
+}
+
+.div3-1-2 {
+    width: 1110.7px;
+    height: 564.44px;
+    padding-left: 30px;
+    margin-bottom: 30px;
+    margin-left: 555.36px;
+    margin-top: -400px;
+}
+
+.div3-1-2 img {
+    width: 545px;
+    height: 545px;
+    margin: 0px 267.85px;
+}
+
+.div4 {
+    width: 100%;
+    height: 654.38px;
+    padding-left: 248.938px;
+    padding-top: 153.188px;
+    padding-bottom: 153.188px;
+}
+
+.div4 h4 {
+    width: 523.14px;
+    height: 24px;
+    padding-top: 15px;
+    margin-bottom: 17.5px;
+    border-top: 3px black solid;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0px;
+    color: black;
+}
+
+.carrusel {
+    width: 848.03px;
+    height: 251px;
+    margin-bottom: 30px;
+    padding-left: 30px;
+    margin-left: -30px;
+    margin-top: 48px;
+}
+
+header .carousel-inner .item {
+    height: 100vh;
+}
+
+.navbar-inverse {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #fff;
+    font-size: 40px;
+    padding: 40px 15px;
+    font-weight: 900;
+}
+
+.nav.navbar-nav.navbar-right {
+    margin: 25px 0;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.banner {
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 251px;
+    width: 848.03px;
+}
+
+.b1 {
+    width: 822.02px;
+    height: 117px;
+    padding-left: 48px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-right: 0px;
+}
+
+.carousel-indicators {
+    border-color: rgb(89, 121, 230);
+    filter: invert();
+}
+
+
+/*responsive css*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .carousel-caption {
+        padding-bottom: 350px;
+    }
+    .carousel-caption h2 {
+        font-size: 50px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar-inverse .navbar-brand {
+        font-size: 30px;
+        padding: 20px 15px;
+    }
+    .navbar-collapse {
+        background: rgba(0, 0, 0, 0.5);
+    }
+    .carousel-caption {
+        padding-bottom: 120px;
+    }
+    .carousel-caption h2 {
+        font-size: 25px;
+    }
+    .carousel-caption h3 {
+        font-size: 18px;
+    }
+    .carousel-caption a {
+        padding: 10px 25px;
+    }
+}
+
+.div6 {
+    width: 1915px;
+    height: 325.94px;
+    padding: 80px 0px;
+    background-color: #8fbfb3;
+}
+
+.div6-1 {
+    width: 1090px;
+    height: 165.938px;
+    padding-left: 30px;
+    margin-bottom: 30px;
+    margin-left: 357.5px;
+}
+
+.div6-1 h3 {
+    width: 1090px;
+    height: 31px;
+    margin-bottom: 17.5px;
+    font-weight: bold;
+    font-size: 26px;
+    text-align: center;
+    color: black;
+}
+
+.p6 {
+    width: 1090px;
+    height: 22px;
+    text-align: center;
+    margin-bottom: 19.4px;
+    font-size: 15px;
+    display: block;
+    color: black;
+}
+
+.div6-1 form {
+    width: 440px;
+    height: 56px;
+    padding: 10px 5px;
+    margin: 0px 320px;
+}
+
+.div6-1-1 {
+    width: 1090px;
+    height: 76px;
+}
+
+.FG {
+    width: 347.89px;
+    height: 56px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.FG input {
+    width: 337.89px;
+    height: 36px;
+    border: 1px gray solid;
+    padding-left: 16px;
+    color: lightgray;
+    font-size: 16px;
+}
+
+.FG input:hover {
+    border: 1px black solid;
+}
+
+.boton2 {
+    width: 72.094px;
+    height: 36px;
+    padding: 10px;
+    margin-left: 347.89px;
+    margin-top: -56px;
+    background-color: #8fbfb3;
+}
+
+.boton2 button {
+    width: 72.094px;
+    height: 35px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    border: none;
+}

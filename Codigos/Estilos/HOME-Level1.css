@@ -1,0 +1,273 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: helvetica;
+}
+.level1{
+    width: 100%;
+    height: 750px;
+}
+.level1-izq{
+    width: 1428.75px;
+    height: 720px;
+    float: left;
+}
+.level1-izq-botones{
+    position: absolute;
+    top: 300px;
+    left: 150px;
+    color: white;
+    width: 600px;
+    font-size: 25px;
+}
+.level1-izq-botones a:hover{
+    color: rgb(89, 121, 230);
+}
+.storybtn2{
+    border: white 1px solid;
+    color: black;
+    background-color: white;
+    width: 127px;
+    height: 12px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 17px;
+    padding-right: 17px;
+    font-size: 15px;
+    text-decoration: none; 
+}
+.level1-der{
+    height: 670px;
+    width: 391.25px;
+    float: right;
+    margin-right: 50px;
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-right: 50px;
+}
+.level1-der-p1{
+    height: 160px;
+    width: 390px;
+    border-top: solid;
+    padding-top: 30px;
+}
+.level1-der-p1 h1{
+    font-size: 20px;
+}
+.level1-der-p2 p{
+    font-size: 15px;
+}
+.level1-der-p2{
+    height: 160px;
+    width: 390px;
+    border-top: solid;
+    padding-top: 30px;
+}
+.level1-der-p2 h1{
+    font-size: 20px;
+}
+.level2{
+    width: 100%;
+    height: 782.5px;
+    background-color: white;
+}
+.level2-izq{
+    float: left;
+    width: 40%;
+    height: 600px;
+    margin-top: 90px;
+}
+.level2-izq-text{
+    color: rgb(40, 40, 40);
+    width: 360px;
+    height: 500px;
+    margin-left: 225px;
+}
+.level2-izq-text a:hover{
+    color: rgb(89, 121, 230);
+}
+.level2-izq-p1{
+    font-size: 38px;
+    border-top: solid;
+    padding-top: 30px;
+}
+.level2-izq-p2{
+    width: 540px;
+    font-size: 15px;
+}
+.storybtn{
+    border: black 1px solid;
+    color: black;
+    width: 127px;
+    height: 12px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 17px;
+    padding-right: 17px;
+    font-size: 15px;
+    text-decoration: none;
+}
+.level2-der{
+    float: right;
+    width: 60%;
+    height: 600px;
+    margin-top: 90px;
+}
+.video{
+    height: 600px;
+    width: 1064px;
+margin-left: 85px;
+}
+
+.level4{
+    height: 874px;
+    width: 100%;
+    background-color: white;
+}
+.level4-sup{
+    padding-left: 410px;
+}
+.level4-sup h1{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.level4-sup-arrow img{
+    margin-top: 15px;
+}
+.level4-sup-icon{
+    color: black;
+    float: right;
+    margin-right: 410px;
+    font-size: 25px;
+}
+.contenedor-imagenes{
+    display:flex;
+    width: 85%;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius:3px;
+    padding-left: 252px;
+    padding-right: 252px;
+}
+
+.contenedor-imagenes .imagen{
+    position: relative;
+    margin-bottom:20px;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .75)
+}
+.imagen{
+    height: 265px;
+    width: 265px;
+    margin-right: 15px;
+}
+.imagen img{
+    width: 265px;
+    height:265px;
+}
+
+.overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background:rgba(40, 40, 40,.65) ;
+    width: 265px;
+    height: 0;
+    overflow: hidden;
+    transition: opacity 1s ease-in-out 15s;
+}
+
+.overlay p{
+    color: #fff;
+    font-size:14px;
+}
+
+.imagen:hover .overlay{
+    height:100%;
+    cursor: pointer;
+
+}
+.div6 {
+    width: 1915px;
+    height: 325.94px;
+    padding: 80px 0px;
+    background-color: rgb(61, 86, 166);
+}
+
+.div6-1 {
+    width: 1090px;
+    height: 165.938px;
+    padding-left: 30px;
+    margin-bottom: 30px;
+    margin-left: 357.5px;
+}
+
+.div6-1 h3 {
+    width: 1090px;
+    height: 31px;
+    margin-bottom: 17.5px;
+    font-weight: bold;
+    font-size: 26px;
+    text-align: center;
+}
+
+.p6 {
+    width: 1090px;
+    height: 22px;
+    text-align: center;
+    margin-bottom: 19.4px;
+    font-size: 15px;
+    display: block;
+    color: black;
+}
+
+.div6-1 form {
+    width: 440px;
+    height: 56px;
+    padding: 10px 5px;
+    margin: 0px 320px;
+}
+
+.div6-1-1 {
+    width: 1090px;
+    height: 76px;
+}
+
+.FG {
+    width: 347.89px;
+    height: 56px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.FG input {
+    width: 337.89px;
+    height: 36px;
+    border: 1px gray solid;
+    padding-left: 16px;
+    color: lightgray;
+    font-size: 16px;
+}
+
+.FG input:hover {
+    border: 1px black solid;
+}
+
+.boton2 {
+    width: 72.094px;
+    height: 36px;
+    padding: 10px;
+    margin-left: 347.89px;
+    margin-top: -56px;
+    background-color: rgb(61, 86, 166);
+}
+
+.boton2 button {
+    width: 72.094px;
+    height: 35px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    border: none;
+}

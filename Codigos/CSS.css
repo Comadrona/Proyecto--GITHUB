@@ -1,0 +1,138 @@
+
+.slide{
+	width: 100%;
+	height: 657px;
+}
+.slide-der{
+	float: right;
+	height: 657px;
+	width: 881.5px;
+}
+.slide-der img{
+	width: 881.5px;
+	height: 657px;
+}
+.slide-izq{
+	float: left;
+	height: 657px;
+	width: 500px;
+	margin-left: 235px;
+	color: white;
+}
+.slide-izq-sup{
+	margin-top: 50px;
+}
+.slide-izq-sup h1{
+	font-size: 15px;
+	font-weight: bold;
+	margin-right: 230px;
+}
+.slide-izq-sup p{
+	font-size: 30px;
+}
+.slide-izq-sup img{
+	margin-bottom:10px;
+}
+.slide-izq-sup h1,button,p{
+	display: inline;
+}
+.slide-izq-inf{
+	margin-top: 50px;
+	width: 345px;
+}
+.slide-izq-inf h1{
+	border-top: 3px white solid;
+	padding-top: 15px;
+	width: 345px;
+	font-size: 45px;
+}
+.slide-izq-inf p{
+	color: black;
+	width: 345px;
+	font-size: 17px;
+}
+.slide-izq-inf a{
+	background-color: white;
+	color: black;
+	border: 2px black solid;
+	padding: 17px 17px;
+}
+.slide-izq-inf a:hover{
+	color: rgb(89, 121, 230);
+	text-decoration: none;
+}
+.banner {
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 657px;
+}
+.carousel-caption {
+	padding-bottom: 250px;
+	font-family: poppins;
+}
+.carousel-caption h2 {
+	font-size: 70px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.carousel-caption h2 span {
+	color: #EDBB00;
+}
+.carousel-caption a {
+	background: #EDBB00;
+	padding: 15px 35px;
+	display: inline-block;
+	margin-top: 15px;
+	color: #fff;
+	text-transform: uppercase;
+	border-radius: 25px;
+}
+.carousel-control.right {
+	background-image: none;
+	width: 50px;
+	height: 50px;
+	top: 40px;
+	left: 670px;
+	opacity: 0;
+}
+.carousel-control.left {
+	background-image: none;
+	width: 50px;
+	height: 50px;
+	top: 40px;
+	left: 555px;
+	opacity: 0;
+}
+/*responsive css*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.carousel-caption {
+		padding-bottom: 350px;
+	}
+	.carousel-caption h2 {
+		font-size: 50px;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.navbar-inverse .navbar-brand {
+		font-size: 30px;
+		padding: 20px 15px;
+	}
+	.navbar-collapse {
+		background: rgba(0, 0, 0, 0.5);
+	}
+	.carousel-caption {
+		padding-bottom: 120px;
+	}
+	.carousel-caption h2 {
+		font-size: 25px;
+	}
+	.carousel-caption h3 {
+		font-size: 18px;
+	}
+	.carousel-caption a {
+		padding: 10px 25px;
+	}
+}

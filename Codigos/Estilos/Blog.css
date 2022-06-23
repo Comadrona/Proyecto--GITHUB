@@ -1,0 +1,167 @@
+.contenedor{
+    height: 3900px;
+    width: 100%;
+}
+.botones{
+    width: 100%;
+    height: 127px;
+}
+.level1 h1{
+    display: block;
+    position: absolute;
+    top: 250px;
+    left: 250px;
+    border-top: 3px white solid;
+    color: white;
+    padding-top: 15px;
+    width: 450px;
+}
+.flechita{
+    display: block;
+    position: absolute;
+    top: 450px;
+    left: 250px;
+    color: white;
+}
+.contenido-izq{
+    width: 957.5px;
+    height: 3500px;
+    float: left;
+    padding-right: 95.75;
+}
+.contenido-der{
+    width: 957.5px;
+    padding-left: 95.75;
+    height: 3500px;
+    float: right;
+    margin-top: 100px;
+}
+.botones{
+    padding-top: 50px;
+    padding-left: 560px;
+}
+.character{
+    width: 861.75px;
+    height: 1154px;
+}
+.character-img{
+    width: 861.75px;
+    height: 861.75px;
+}
+.character img:hover{
+    -webkit-filter: sepia(60%);
+}
+.infoImgL{
+    padding: 0;
+    margin-top: 20px;
+}
+.infoImgL h1{
+    border-top: black solid;
+    width: 430px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.infoImg{
+    padding-left: 430px;
+    margin-top: 20px;
+}
+.infoImg h1{
+    border-top: black solid;
+    width: 430px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+ul, ol {
+    list-style:none;
+}
+
+.nav > li {
+    float:left;
+}
+.pages{
+    height: 164px;
+    width: 100%;
+    float: left;
+    padding-top: 45px;
+    padding-left: 850px;
+}
+.pages button{
+    height: 54px;
+    width: 47px;
+    display: inline-block;
+}
+.pages p{
+    display: inline;
+    margin: 0 20px;
+}
+.botones li a,.botones p{
+    font-size: 15px;
+    margin-bottom: 0;
+    color:black;
+    text-decoration:none;
+    text-align: left;
+    padding:10px 12px;
+    display:block;
+    background-color: white;
+    border: 1px black solid;
+    width: 300px;
+    height: 36px;
+}
+
+.nav li a:hover {
+    background-color:#434343;
+}
+
+.nav li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+
+.nav li:hover > ul {
+    display:block;
+}
+
+.nav li ul li {
+    position:relative;
+}
+
+.nav li ul li ul {
+    right:-140px;
+    top:0px;
+}
+.formulario{
+    position: absolute;
+    top: 695px;
+    left: 1050px;
+}
+.formulario input {
+    width: 319.906px;
+    height: 36px;
+    border: 1px gray solid;
+    padding-left: 16px;
+    color: lightgray;
+    font-size: 16px;
+    margin-top: -100px;
+}
+
+.formulario input:hover {
+    border: 1px black solid;
+}
+
+.boton2 {
+    width: 72.094px;
+    height: 36px;
+    padding: 10px;
+    margin-left: 307.89px;
+    margin-top: -45px;
+}
+
+.boton2 button {
+    width: 72.094px;
+    height: 35px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    border: none;
+}

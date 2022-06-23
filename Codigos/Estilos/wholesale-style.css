@@ -1,0 +1,379 @@
+.title {
+    width: 100%;
+    height: 500px;
+}
+
+.title div {
+    width: 445px;
+    height: 191px;
+    padding-top: 15px;
+    border-top: 3px white solid;
+    position: relative;
+    margin-left: 250px;
+    margin-top: -400px;
+    background-color: rgb(40, 40, 40);
+    color: white;
+}
+
+.title h1 {
+    font-size: 35px;
+    font-weight: bold;
+    width: 445px;
+    height: 42px;
+    margin-bottom: 17.5px;
+}
+
+.div2 {
+    width: 100%;
+    height: 280.81px;
+}
+
+.div2-1 {
+    width: 658.968px;
+    height: 129.44px;
+    margin-top: 155px;
+    margin-left: 248px;
+    padding-right: 49.594px;
+    font-size: 15px;
+}
+
+.div2-2 {
+    width: 708.56px;
+    height: 87.44px;
+    margin-top: -128px;
+    margin-left: 956px;
+    padding-left: 49.594px;
+    font-size: 15px;
+}
+
+.div2-2 a {
+    border: 1px black solid;
+    background-color: white;
+    color: black;
+    padding: 16px 32px;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.div2-2 a:hover {
+    color: rgb(61, 86, 166);
+}
+
+.div3 {
+    width: 100%;
+    height: 434.77px;
+}
+
+.div3-1 {
+    width: 510px;
+    height: 309.375px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-right: 35px;
+    margin-left: 412px;
+    margin-top: 58px;
+}
+
+.div3-1 h2 {
+    font-size: 26px;
+    margin-bottom: 17.5px;
+    font-weight: bold;
+}
+
+.div3-1 p {
+    font-size: 15px;
+    margin-bottom: 19.4px;
+}
+
+.div3-1 a {
+    border: 1px black solid;
+    background-color: white;
+    color: black;
+    padding: 16px 26px;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.div3-1 a:hover {
+    color: rgb(61, 86, 166);
+}
+
+.div3-2 {
+    margin-left: 956px;
+    margin-top: -379px;
+}
+
+.div4 {
+    width: 100%;
+    height: 639.703px;
+    padding: 55px 0px;
+}
+
+.div4-1 {
+    width: 1090px;
+    height: 639.703px;
+    padding: 0px 55px;
+    margin-left: 357.5px;
+}
+
+.div4-1 img {
+    width: 343.33px;
+    height: 343.33px;
+}
+
+.div4-1-1 {
+    width: 343.328px;
+    height: 637.141px;
+    padding-left: 30px;
+    margin-left: -30px;
+}
+
+.div4-1-1 h3 {
+    font-size: 17px;
+    font-weight: bold;
+    width: 343.318px;
+    height: 20px;
+    margin-bottom: 17.5px;
+    margin-top: 16.5px;
+}
+
+.div4-1-1 p {
+    margin-bottom: 19.4px;
+    font-size: 15px;
+}
+
+.div4-1-2 {
+    width: 343.328px;
+    height: 639.703px;
+    padding-left: 30px;
+    margin-left: 343.328px;
+    margin-top: -637.141px;
+}
+
+.div4-1-2 h3 {
+    font-size: 17px;
+    font-weight: bold;
+    width: 343.318px;
+    height: 20px;
+    margin-bottom: 17.5px;
+    margin-top: 16.5px;
+}
+
+.div4-1-2 p {
+    font-size: 15px;
+    margin-bottom: 19.4px;
+}
+
+.div4-1-3 {
+    width: 343.328px;
+    height: 595.703px;
+    padding-left: 30px;
+    margin-left: 716.656px;
+    margin-top: -639px;
+}
+
+.div4-1-3 h3 {
+    font-size: 17px;
+    font-weight: bold;
+    width: 343.318px;
+    height: 20px;
+    margin-bottom: 17.5px;
+    margin-top: 16.5px;
+}
+
+.div4-1-3 p {
+    font-size: 15px;
+    margin-bottom: 19.4px;
+}
+
+.div5 {
+    width: 100%;
+    height: 542.750px;
+    padding: 55px 0px;
+}
+
+.div5-1 {
+    width: 1090px;
+    height: 542.750px;
+    padding: 0px 55px;
+    margin: 0px 357.5px;
+}
+
+.div5 h2 {
+    font-size: 26px;
+    margin-bottom: 17.5px;
+    font-weight: bold;
+}
+
+.div5 p {
+    font-size: 15px;
+    margin-bottom: 19.4px;
+}
+
+.div5-1-1 {
+    width: 510px;
+    height: 199.938px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-right: 35px;
+}
+
+.div5-1-2 {
+    width: 399px;
+    height: 482.750px;
+    padding: 30px 0px;
+    margin-left: 691px;
+    margin-top: -270px;
+}
+
+.div5-1-2 label {
+    font-size: 15px;
+}
+
+.div5-1-2 textarea {
+    width: 361px;
+    height: 180px;
+    padding: 10px 18px;
+    border: 1px gray solid;
+    margin-bottom: 19.4px;
+    margin-top: 5px;
+}
+
+.div5-1-2-1 {
+    width: 192px;
+    height: 84.438px;
+    padding-left: 15px;
+    margin-left: -15px;
+}
+
+.div5-1-2-1 input {
+    width: 156px;
+    height: 18px;
+    padding: 10px 18px;
+    margin-bottom: 19.4px;
+    margin-top: 5px;
+    border: none;
+}
+
+.div5-1-2-2 {
+    width: 192px;
+    height: 84.438px;
+    padding-left: 15px;
+    margin-left: 192px;
+    margin-top: -84.438px;
+}
+
+.div5-1-2-2 input {
+    width: 156px;
+    height: 18px;
+    padding: 10px 18px;
+    margin-bottom: 19.4px;
+    margin-top: 5px;
+    border: none;
+}
+
+.cel {
+    width: 363px;
+    height: 18px;
+    padding: 10px 18px;
+    margin-bottom: 19.4px;
+    margin-top: 5px;
+    border: none;
+}
+
+.submit {
+    width: 33.906;
+    height: 12;
+    padding: 16px 17px;
+    border: 1px black solid;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 19.4px;
+}
+
+.div6 {
+    width: 100%;
+    height: 165.938px;
+    padding: 80px 0px;
+    background-color: rgb(61, 86, 166);
+}
+
+.div6-1 {
+    width: 1090px;
+    height: 165.938px;
+    padding-left: 30px;
+    margin-bottom: 30px;
+    margin-left: 357.5px;
+}
+
+.div6-1 h3 {
+    width: 1090px;
+    height: 31px;
+    margin-bottom: 17.5px;
+    font-weight: bold;
+    font-size: 26px;
+    text-align: center;
+    color: black;
+}
+
+.p6 {
+    width: 1090px;
+    height: 22px;
+    text-align: center;
+    margin-bottom: 19.4px;
+    font-size: 15px;
+}
+
+.div6-1 form {
+    width: 440px;
+    height: 56px;
+    padding: 10px 5px;
+    margin: 0px 320px;
+}
+
+.div6-1-1 {
+    width: 1090px;
+    height: 76px;
+}
+
+.FG {
+    width: 337.906px;
+    height: 36px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.FG input {
+    width: 319.906px;
+    height: 34px;
+    border: 1px gray solid;
+    padding-left: 16px;
+    color: lightgray;
+    font-size: 16px;
+}
+
+.FG input:hover {
+    border: 1px black solid;
+}
+
+.boton2 {
+    width: 72.094px;
+    height: 36px;
+    padding: 10px;
+    margin-left: 347.89px;
+    margin-top: -56px;
+    background-color: rgb(61, 86, 166);
+}
+
+.boton2 button {
+    width: 72.094px;
+    height: 35px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    border: none;
+}
